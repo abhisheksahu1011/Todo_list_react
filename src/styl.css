@@ -1,0 +1,74 @@
+.todo__container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .todo__container h1 {
+    background-color: #5e00b8;
+    color: #ffffff;
+  }
+  
+  .input__container {
+    background: #ffffff;
+    padding: 30px 10px;
+    box-shadow: 5px 5px 60px #d9d9d9, -5px -5px 60px #ffffff;
+  }
+  
+  .input__container input {
+    padding: 5px;
+    width: 95%;
+    outline: none;
+    border: 1px solid #000000;
+  }
+  
+  .input__container input:focus {
+    border: 1px solid #5e00b8;
+  }
+  
+  .input__container button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #5e00b8;
+    border-radius: 15px;
+    border: 2px solid white;
+    width : 200px;
+    color: #ffffff;
+  }
+  
+  .list__container {
+    margin-top: 40px;
+  }
+  
+  .list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #5e00b8;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .cm__btn {
+    background-color: transparent;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .danger {
+    background-color: red;
+    color: #fff;
+    margin-right: 10px;
+  }
+  .check {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .checked__list__item {
+    background-color: aqua;
+  }
